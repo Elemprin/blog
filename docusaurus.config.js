@@ -68,7 +68,7 @@ const config = {
         title: 'Elemprin',
         logo: {
           alt: 'Elemprin Badge',
-          src: 'img/elemprin-badge.svg',
+          src: 'img/elemprin-badge.png',
         },
         items: [
           {
