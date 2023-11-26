@@ -44,13 +44,13 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Elemprin/blog/tree/main/',
+            'https://github.com/Elemprin/blog/tree/develop/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/Elemprin/blog/tree/main/',
+          editUrl: 'https://github.com/Elemprin/blog/tree/develop/',
         },
         theme: {
           customCss: './src/css/custom.css',
