@@ -16,7 +16,7 @@ const config = {
   url: 'https://elemprin.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/blog/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -63,7 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      // image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Elemprin',
         logo: {
@@ -71,18 +71,22 @@ const config = {
           src: 'img/elemprin-badge.png',
         },
         items: [
+		/*
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
           },
+		*/
           {to: '/blog', label: 'Blog', position: 'left'},
+		/*
           {
             href: 'https://github.com/elemprin/blog',
             label: 'GitHub',
             position: 'right',
           },
+		 */
         ],
       },
       footer: {
@@ -101,7 +105,7 @@ const config = {
             title: 'Resources',
             items: [
               {
-                label: 'Elemprin Main Site',
+                label: 'Website',
                 href: 'https://www.elemprin.com/',
               },
               {
@@ -117,10 +121,12 @@ const config = {
           {
             title: 'More',
             items: [
+			/*
               {
                 label: 'Blog',
                 to: '/blog',
               },
+			*/
               {
                 label: 'GitHub',
                 href: 'https://github.com/Elemprin/blog',
@@ -128,7 +134,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Elemprin.<br>Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Elemprin.`,
       },
       prism: {
         theme: prismThemes.github,
