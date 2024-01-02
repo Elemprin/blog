@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/blog">
+            to="/blog/blog">
             Elemprin Blogs - 5min ⏱️
           </Link>
         </div>
